@@ -4,7 +4,7 @@ COLOR PALLET
 #54049d -- Purple Heart
  */
 
-html {
+body {
   margin: 0;
   background-color: #54049d;
   color: #bcc3f9;
@@ -21,8 +21,8 @@ h1 {
 .mySpot {
   position: absolute;
   z-index: 100;
-  width: 60px;
-  height: 60px;
+  width: 0px;
+  height: 0px;
   margin: 0;
   padding: 0;
   top: 400px;
