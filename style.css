@@ -1,0 +1,39 @@
+/*
+COLOR PALLET
+#bcc3f9 -- Blue Bell
+#54049d -- Purple Heart
+ */
+
+html {
+  margin: 0;
+  background-color: #54049d;
+  color: #bcc3f9;
+  padding: 25px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  pointer-events: none;
+}
+
+.mySpot {
+  position: absolute;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  top: 400px;
+  left: 400px;
+  background-color: #bcc3f9;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.coordinates {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 1.5em;
+}
