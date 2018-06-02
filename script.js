@@ -37,7 +37,7 @@ function moveCircle(e) {
     centerX >= -15 &&
     centerY <= 45 &&
     centerY >= -15){
-    circle.style.backgroundColor = "#990000";
+    circle.style.backgroundColor = "red";
     //circle.style.boxShadow = " 0px 0px 50px rgba(0, 0, 0, 1), 0px 0px 50px rgba(153,0,0, .7)";
 
   } else {
